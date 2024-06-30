@@ -1,0 +1,11 @@
+[package]
+name = "word"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+description = "Word dictionary library"
+include = ["src/**/*.rs"]
+
+[features]
+russian = []
+default = ["russian"]
