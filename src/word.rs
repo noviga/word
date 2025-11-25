@@ -126,7 +126,7 @@ impl Word {
     }
 
     /// Returns the word with the accent.
-    pub fn accented(&self) -> AccentedWord {
+    pub fn accented(&self) -> AccentedWord<'_> {
         AccentedWord {
             chars: self.word.chars(),
             accent: self.accent,
